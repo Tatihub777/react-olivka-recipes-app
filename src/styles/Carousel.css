@@ -1,0 +1,88 @@
+.carousel {
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    width: 100%;
+    height: 100%;
+    padding-bottom: 20px;
+  }
+  .carousel-caption {
+    margin-bottom: 20px;
+  }
+  .carousel-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 300px;
+    background-color: rgb(54, 55, 53);
+  }
+  .carousel-wrapper-text {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    padding: 10px;
+    flex: 1 auto;
+    font-size: 16px;
+  }
+  .carousel-wrapper {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    filter:brightness(80%);
+    display: flex;
+  }
+  .carousel h3 {
+    font-size: 22px;
+    padding: 10px 20px;
+  }
+  .carousel-buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    transform: translateY(-10em);
+  }
+  .button-arrow {
+  border: none;
+  cursor: pointer;
+  margin-top: 20px;
+  color:#fff;
+  text-transform: uppercase;
+  }
+  .carousel-card {
+    display: flex;
+    justify-content: space-between;
+    width: 800px;
+  }
+  .button-link {
+    text-decoration: none;
+    font-size: 22px;
+    padding: 0 10px 0 10px;
+    border: 1px solid #fff;
+    cursor: pointer;
+  margin-top: 40px;
+  color:#fff;
+  text-transform: uppercase;
+  }
+  .button-link:hover {
+    color: #333;
+    background-color: #fff;
+  }
+  .carousel-img {
+    width: 300px;
+    max-height: 300px;
+    z-index: 3;
+  }
+
+  @media only screen and (max-width: 650px) {
+    
+    .carousel-card {
+      width: 600px;
+    }
+    
+  }

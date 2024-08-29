@@ -1,0 +1,21 @@
+.home_banner {
+display: flex;
+justify-content: center;
+width: 100%;
+
+}
+.home_banner_images {
+  object-fit: cover;
+  width: 100%;
+  position: relative; 
+}
+.home_banner_title {
+ position: absolute;
+}
+
+.home-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
